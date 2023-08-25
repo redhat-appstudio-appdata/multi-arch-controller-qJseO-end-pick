@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-arch-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-arch-controller@sha256:b8601c88ced033634147e19cc08c1592b5062a19c0b9e57972cad8e198efea41
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-arch-controller@sha256:6a2a219994edb05708c3c361a642ca445dbe2d6eaf26599559c0f256e02c5384
         imagePullPolicy: Always
         name: container-image
         ports:
