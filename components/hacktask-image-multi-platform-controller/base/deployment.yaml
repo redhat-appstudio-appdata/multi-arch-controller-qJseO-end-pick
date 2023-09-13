@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hacktask-image-multi-platform-controller
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/hacktask-image-multi-platform-controller@sha256:50b0745f503cb73f3441bddd74bc89d6cdd177fa8a376112065bef9f4cd15e79
         imagePullPolicy: Always
         name: container-image
         ports:
