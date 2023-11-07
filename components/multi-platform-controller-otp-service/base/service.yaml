@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: multi-platform-controller-otp-service
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: multi-platform-controller-otp-service
+    app.kubernetes.io/part-of: multi-arch-controller
+  name: multi-platform-controller-otp-service
+spec:
+  ports:
+  - port: 8443
+    targetPort: 8443
+  selector:
+    app.kubernetes.io/instance: multi-platform-controller-otp-service
+status:
+  loadBalancer: {}
