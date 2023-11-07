@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-platform-controller-otp-service
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:f8fb4c6c4109b468b6dae2fac233ffe3763f1937d73b0db42de9c52a46c9bbbe
+        name: container-image
+        resources: {}
+status: {}
