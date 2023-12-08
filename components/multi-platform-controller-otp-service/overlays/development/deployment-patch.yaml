@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: multi-platform-controller-otp-service
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
