@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:192b1323aa700af351ada82fa040939188c618fcc4573832d96abce104582a76
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:444cca3120cc4497c66f80494fe37a93a9fa17ef3aac21622ea0e264b5fb3896
         name: container-image
         resources: {}
 status: {}
