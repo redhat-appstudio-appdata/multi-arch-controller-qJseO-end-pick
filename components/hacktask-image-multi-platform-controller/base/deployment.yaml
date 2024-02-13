@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: multi-arch-controller
   name: hacktask-image-multi-platform-controller
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
