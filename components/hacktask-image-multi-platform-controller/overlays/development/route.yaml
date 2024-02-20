@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hacktask-image-multi-platform-controller
     app.kubernetes.io/part-of: multi-arch-controller
-  name: hacktask-image-multi-platujvl
+  name: hacktask-image-multi-platxdkl
 spec:
   port:
     targetPort: 8080
