@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: multi-arch-controller
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:

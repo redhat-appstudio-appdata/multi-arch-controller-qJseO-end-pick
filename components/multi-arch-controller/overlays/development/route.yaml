@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multi-arch-controller
     app.kubernetes.io/part-of: multi-arch-controller
-  name: multi-arch-controllerelfo
+  name: multi-arch-controllerugur
 spec:
   port:
     targetPort: 8080
