@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multi-platform-controller
     app.kubernetes.io/part-of: multi-arch-controller
-  name: multi-platform-controllerreyx
+  name: multi-platform-controllervmuq
 spec:
   port:
     targetPort: 8080
