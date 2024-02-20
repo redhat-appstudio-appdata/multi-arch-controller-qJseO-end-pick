@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multi-platform-controller-otp-service
     app.kubernetes.io/part-of: multi-arch-controller
-  name: multi-platform-controllerg6dn
+  name: multi-platform-controllerjlah
 spec:
   port:
     targetPort: 8443

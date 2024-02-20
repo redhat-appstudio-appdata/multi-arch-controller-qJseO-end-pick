@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: multi-platform-controller-otp-service
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:b594a2bdc9b8c001afbdf5ed7320eb602b818b04543ef23c612aee0607682b9b
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:8f47c58e8b6257cae9842b50dfe07d5dd62a42e98e83b578ee12fd71a26bd1d7
         name: container-image
         resources: {}
 status: {}
