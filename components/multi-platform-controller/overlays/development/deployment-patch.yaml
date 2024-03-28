@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-arch-controller@sha256:b0225785519f61b3ea18823fa0d85ef5a74371c8f556aab5c7e5b54010352016
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-arch-controller@sha256:71eb4021c2ebc060234b21aa6e78bbba5221c32cc25f28ac75fad9881f9f3b0d
         name: container-image
         resources: {}
 status: {}
