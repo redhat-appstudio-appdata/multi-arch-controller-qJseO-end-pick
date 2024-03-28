@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-controller-otp-service
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:610a590fa3ac16b914556a16951547aa18510cb0a9f31a4da640bc49673ca4fa
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-platform-controller-otp-service@sha256:c5c07bb6adee235805dae4d53e107a756685791d90c869bb421b60d4c5edb753
         imagePullPolicy: Always
         name: container-image
         ports:
